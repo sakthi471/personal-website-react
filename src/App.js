@@ -22,7 +22,6 @@ function App() {
     <div >
        {loading === false ? (
         <>
-
          <Navbar/>
          <Home/>
          <SocilaLinks/>

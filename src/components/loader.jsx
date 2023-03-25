@@ -13,7 +13,7 @@ const Loader = () => {
   wrapperClass=""
   visible={true}
 />
-<span className='text-white py-3' >Loading...</span>
+<span className='text-white py-3' >Loading....</span>
     </div>
   )
 }
