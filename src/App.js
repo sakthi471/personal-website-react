@@ -30,10 +30,10 @@ function App() {
          <Experience/>
          <Contact/>
          <Footer/>
-         <Loader/>
          </>
       ) : (
-        <></>
+        <Loader/>
+
       )}
     </div>
   );
