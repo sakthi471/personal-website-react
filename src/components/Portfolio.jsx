@@ -2,10 +2,13 @@ import React from "react";
 import Ffest from "../assets/portfolio/ffest.png";
 import personalWebsite from "../assets/portfolio/personalWebsite.png";
 import Todolist from "../assets/portfolio/Todolist.png";
-import draggame from "../assets/portfolio/dragGame.png";
+import draggame1 from "../assets/portfolio/dragGame1.png";
 import transition from "../assets/portfolio/transition.png";
 import landingpage from "../assets/portfolio/portfolio.png";
 import animation from "../assets/portfolio/animation.png";
+import passwordGenerator from '../assets/portfolio/passwordGenerator.png'
+import user from '../assets/portfolio/user.png'
+
 
 
 const Portfolio = () => {
@@ -24,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: draggame,
+      src: draggame1,
     },
     {
       id: 5,
@@ -38,6 +41,15 @@ const Portfolio = () => {
       id: 7,
       src: animation,
     },
+    {
+      id: 8,
+      src: passwordGenerator,
+    },
+    {
+      id: 9,
+      src: user,
+    },
+
 
   ];
 

@@ -3,8 +3,8 @@ import { Bars } from  'react-loader-spinner'
 
 const Loader = () => {
   return (
-    <div className='w-full h-screen bg-gradient-to-b from-blue-900 via-black-500 to-blue-500 flex flex-col items-center justify-center z-10' >
-  <Bars
+    <div className=' w-full h-screen bg-gradient-to-b from-blue-900 via-black to-blue-500 flex flex-col items-center justify-center z-20' >
+  <Bars 
   height="80"
   width="80"
   color="white"
@@ -12,8 +12,10 @@ const Loader = () => {
   wrapperStyle={{}}
   wrapperClass=""
   visible={true}
+  
 />
-<span className='text-white py-3' >Loading....</span>
+
+<span className='text-white py-3' >Loading...</span>
     </div>
   )
 }

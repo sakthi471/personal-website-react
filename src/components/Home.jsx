@@ -2,8 +2,7 @@ import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import heroImage from "../assets/avathar.png";
-import { TypeAnimation } from 'react-type-animation';
-
+import { TypeAnimation } from "react-type-animation";
 
 export const Home = () => {
   return (
@@ -20,7 +19,7 @@ export const Home = () => {
             It's me Sakthi
           </p>
           <span className="mt-5 font-bold text-white text-xl ">
-            <span>I'm a </span>{" "}
+            <span>I'm </span>{" "}
             <TypeAnimation
               sequence={[
                 "MERN Stack developer",
@@ -28,12 +27,13 @@ export const Home = () => {
                 "Student",
                 2000,
                 "React Native developer",
-                2000,
+                1000,
               ]}
               repeat={Infinity}
+              cursor={false}
             />
           </span>
-          
+
           <p className="text-gray-500 pt-7 max-w-md">
             I love to work on web application using technologies like React,
             Tailwind, Node js,Express js,Mongodb

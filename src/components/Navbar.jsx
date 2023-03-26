@@ -48,12 +48,12 @@ const Navbar = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="pr-4 cursor-pointer z-10 text-gray-300  md:hidden "
+        className="pr-4 cursor-pointer z-30 text-gray-300  md:hidden "
       >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
       {nav && (
-        <ul className=" flex flex-col w-full h-screen bg-gradient-to-b from-black to-gray-800 justify-evenly items-center absolute top-0 right-0  ">
+        <ul className=" flex flex-col w-full h-screen bg-gradient-to-b from-black to-gray-800 justify-evenly items-center absolute top-0 right-0 z-20 ">
           {links.map(({ id, link }) => {
             return (
               <li key={id} className=" cursor-pointer  capitalize " >
