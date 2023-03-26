@@ -2,6 +2,8 @@ import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import heroImage from "../assets/avathar.png";
+import { TypeAnimation } from 'react-type-animation';
+
 
 export const Home = () => {
   return (
@@ -17,11 +19,26 @@ export const Home = () => {
           <p className=" text-white text-3xl font-extrabold	 md:text-4xl leading-5 mt-4 ">
             It's me Sakthi
           </p>
+          <span className="mt-5 font-bold text-white text-xl ">
+            <span>I'm a </span>{" "}
+            <TypeAnimation
+              sequence={[
+                "MERN Stack developer",
+                2000,
+                "Student",
+                2000,
+                "React Native developer",
+                2000,
+              ]}
+              repeat={Infinity}
+            />
+          </span>
+          
           <p className="text-gray-500 pt-7 max-w-md">
             I love to work on web application using technologies like React,
             Tailwind, Node js,Express js,Mongodb
           </p>
-          <div  className="flex py-8 ">
+          <div className="flex py-8 ">
             <Link
               to="portfolio"
               smooth
@@ -33,7 +50,9 @@ export const Home = () => {
                 <MdKeyboardArrowRight size={25} />
               </span>
             </Link>
-            <a href="public/SAKTHI RESUME.pdf" download
+            <a
+              href="public/SAKTHI RESUME.pdf"
+              download
               className="  group text-white w-fit flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer px-2 py-1 rounded-md mx-3 text-sm md:text-xg lg:hidden"
             >
               Download CV
@@ -41,7 +60,6 @@ export const Home = () => {
                 <MdKeyboardArrowRight size={25} />
               </span>
             </a>
-            
           </div>
         </div>
         <div className="mt-10 ">
