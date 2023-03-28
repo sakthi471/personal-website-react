@@ -23,7 +23,7 @@ const Footer = () => {
     {
       id: 4,
       child: <HiOutlineMail size={30} />,
-      href: "sakthim61797@gmailcom",
+      href: "mailto:sakthim61797@gmailcom",
     },
   ];
   return (

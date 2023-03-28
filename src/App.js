@@ -33,7 +33,6 @@ function App() {
          </>
       ) : (
         <Loader/>
-
       )}
     </div>
   );

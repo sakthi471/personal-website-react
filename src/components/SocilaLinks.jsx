@@ -5,20 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const SocilaLinks = () => {
 
 
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('public/SAKTHI RESUME.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'SAKTHI RESUME.pdf';
-            alink.click();
-        })
-    })
-}
+
 
     const SocialLink=[
         {
@@ -50,7 +37,7 @@ const SocilaLinks = () => {
                Mail <HiOutlineMail size={25}/>
                </>
             ),
-            href:"https:sakthim61797@gmail.com",
+            href:"mailto:sakthim61797@gmail.com",
             
         },
         {
@@ -73,7 +60,7 @@ const SocilaLinks = () => {
                 <li key={id} className={
                     `bg-gray-500 flex justify-between items-center w-40 h-11  px-4  ml-[-110px] hover:rounded-md duration-300 hover:ml-[-10px] ${style}`
                 }>
-                <a href={href} onClick={onButtonClick} target="_blank"  rel="noreferrer" className="text-white flex w-full justify-between items-center">
+                <a href={href}  target="_blank"  rel="noreferrer" className="text-white flex w-full justify-between items-center">
                   {child}
                 </a>
               </li>
