@@ -15,7 +15,7 @@ const SocilaLinks = () => {
                 Linkedian <FaLinkedin size={25}/>
                </>
             ),
-            href:"https:github.com",
+            href:"https://www.linkedin.com/in/sakthi-m-79a98a227/",
             style:"rounded-tr-md"
             
         },

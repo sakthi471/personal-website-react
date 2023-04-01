@@ -3,7 +3,7 @@ import { Bars } from  'react-loader-spinner'
 
 const Loader = () => {
   return (
-    <div className=' w-full h-screen bg-gradient-to-b from-blue-900 via-black to-blue-500 flex flex-col items-center justify-center z-20' >
+    <div className=' w-full h-screen bg-gradient-to-br from-[#000000] to-[#04619F] flex flex-col items-center justify-center z-20' >
   <Bars 
   height="80"
   width="80"

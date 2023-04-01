@@ -13,7 +13,7 @@ const Footer = () => {
     {
       id: 2,
       child: <FaLinkedin size={30} />,
-      href: "",
+      href: "https://www.linkedin.com/in/sakthi-m-79a98a227/",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Footer = () => {
         ))}
 
       </div>
-        <p className="text-white py-2">@ 2022 - All Rights Reserved.</p>
+        <p className="text-white py-2">@ 2023 - All Rights Reserved.</p>
     </div>
   );
 };

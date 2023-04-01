@@ -30,6 +30,7 @@ function App() {
          <Experience/>
          <Contact/>
          <Footer/>
+        
          </>
       ) : (
         <Loader/>
