@@ -8,6 +8,8 @@ import landingpage from "../assets/portfolio/portfolio.png";
 import animation from "../assets/portfolio/animation.png";
 import passwordGenerator from '../assets/portfolio/passwordGenerator.png'
 import user from '../assets/portfolio/user.png'
+import modernui from '../assets/portfolio/modernui.png'
+
 
 
 
@@ -49,6 +51,10 @@ const Portfolio = () => {
       id: 9,
       src: user,
     },
+    {
+      id:10,
+      src:modernui,
+    }
 
 
   ];
