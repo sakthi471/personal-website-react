@@ -90,7 +90,7 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white   ">
         <div className="mt-20 over " >
-          <p className="text-2xl  font-bold px-2 border-b-4 border-gray-500 inline md:text-4xl">
+          <p className="text-2xl  font-bold px-2 border-b-4 border-gray-500 inline hover:border-white duration-300 md:text-4xl">
             Experience
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
