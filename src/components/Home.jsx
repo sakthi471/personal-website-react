@@ -13,7 +13,7 @@ export const Home = () => {
       <div className=" max-w-screen-lg mx-auto flex flex-col  md:flex-row items-center justify-between w-full h-full px-4 ">
         <div className="flex flex-col justify-center h-full mt-20 py-5 ">
           <h2 className="md:text-6xl text-white text-3xl font-medium">
-            Hey Everybody,
+            Hey Everybody
           </h2>
           <p className=" text-white text-3xl font-extrabold	 md:text-4xl leading-5 mt-4 ">
             It's me Sakthi
