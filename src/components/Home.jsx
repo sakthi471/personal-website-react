@@ -22,11 +22,11 @@ export const Home = () => {
             <span>I'm </span>{" "}
             <TypeAnimation
               sequence={[
-                "MERN Stack developer",
+                "MERN a Stack developer",
                 2000,
-                "Student",
+                "a Student",
                 2000,
-                "React Native developer",
+                "React a Native developer",
                 1000,
               ]}
               repeat={Infinity}
